@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -24,23 +25,363 @@
                                         <li class="header-menu__items"> <a class="link" href=#contacts>CONTACTS</li></a>
                 </ul>
             </nav>
-            <div class="phone yellow" href="tel:+78005008991">+7 (928) 768-32-39</div>
+            <div class="phone" href="tel:+78005008991">+7 (928) 768-32-39</div>
             <button class="button">Request a call</button>
         </div>
     </div>
     <main>
         <section class="first-screen">
-            <div class="wrapper wrapper-overlay">
-                <h1 class="first-screen-h1 uppercase">Turnkey Repair in the city of <span class="uppercase yellow">Rostov-on-Don</span></h1>
+            <div class="wrapper">
+                <h1 class="first-screen-h1">Turnkey Repair in the city of <span class="first-screen-h1-span">Rostov-on-Don</span></h1>
                 <p class="first-screen-text">Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work</p>
                 <button class="first-screen-button">CALCULATE THE COST</button>
-                <button class="first-screen-button">SUBMIT YOUR APPLICATION</button>
+                <button class="first-screen-button first-screen-button-submit">SUBMIT YOUR APPLICATION</button>
             </div>
         </section>
+        <section class="second-screen">
+            <div class="wrapper">
+                <div class="second-screen-slider">
+                    <div class="second-screen-slider-left">
+                        <div class="second-screen-slider-left-projects">
+                            <h2 class="h2 second-screen-slider-left-h2">Completed projects</h2>
+                            <p class="second-screen-slider-left-text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+                        </div>
+                        <div class="second-screen-slider-left-city">
+                            <div class="second-screen-slider-left-city-left">
+                                <h3 class="second-screen-slider-left-city-h3">City:</h3>
+                                <p class="second-screen-slider-left-city-text">Rostov-on-Don LCD admiral</p>
+                                <h3 class="second-screen-slider-left-city-h3">Repair time:</h3>
+                                <p class="second-screen-slider-left-city-text">81 m2</p>
+                            </div>
+                            <div class="second-screen-slider-left-city-right">
+                                <h3 class="second-screen-slider-left-city-h3">apartment area:</h3>
+                                <p class="second-screen-slider-left-city-text">3.5 months</p>
+                                <h3 class="second-screen-slider-left-city-h3">Repair Cost:</h3>
+                                <p class="second-screen-slider-left-city-text">Upon request</p>
+                            </div>
+                        </div>
+                        <nav>
+                            <div class="second-screen-slider-left-arrow">
+                                <img src="img/ar_left.png" alt="arrow">
+                                <label><input type="radio" name="slide"><i></i></label>
+                                <label><input type="radio" name="slide" checked><i></i></label>
+                                <label><input type="radio" name="slide"><i></i></label>
+                                <img src="img/ar_right.png" alt="arrow">
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="second-screen-slider-right">
+                        <nav>
+                            <ul class="second-screen-slider-right-nav">
+                                <li class="second-screen-slider-right-nav__items">Rostov-on-Don, Admiral</li>
+                                <li class="second-screen-slider-right-nav__items">Sochi Thieves</li>
+                                <li class="second-screen-slider-right-nav__items">Rostov-on-Don Patriotic</li>
+                            </ul>
+                        </nav>
+                        <div class="second-screen-slider-right-pics">
+                            <img src="img/slide-1.jpg" alt="apartment">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third-screen">
+            <div class="wrapper third-screen-online-control-wrapper">
+                <div class="third-screen-online-control">
+                    <p class="second-screen-online-control-text">online control</p>
+                    <div class="second-screen-online-control-camera">
+                        <span><img src="img/camera.svg" alt="camera"></span>
+                    </div>
+                    <div class="third-screen-online-control-video"><button class="button-play"><span></span></button> </div>
+                </div>
+                <p class="third-screen-text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
+                    Leave a request below and you will receive a link to the broadcast.</p>
+                <form class="third-screen-online-control-form">
+                    <label class="form-title third-screen-online-control-form-name">Name</label>
+                    <p class="input-title"><input class="input third-screen-online-control-form-name-input" placeholder="What is your name:"></p>
+                    <label class="form-title third-screen-online-control-form-name">Phone </label>
+                    <p class="input-title"><input class="input third-screen-online-control-form-name-phone" placeholder="Your phone number:"></p>
+                    <button class="button third-screen-online-control-form-button">submit</button>
+                </form>
+                <div class="third-screen-online-control-form-checkbox checkbox">
+                    <input type="checkbox" id="checkbox_2">
+                    <label for="checkbox_2">I agree to the processing of personal data</label>
+                </div>
+            </div>
+        </section>
+        <section class="fourth-screen">
+            <div class="wrapper">
+                <h3 class="h3 h3-fourth-screen">TYPES OF REPAIR</h3>
+                <div class="fourth-screen-icon">
+                    <span><img src="img/tools.svg" alt="tools"></span>
+                </div>
+                <div class="fourth-screen-types">
+                    <div class="fourth-screen-types-item-left types-item">
+                        <div class="fourth-screen-types-item-left-img"><img src="img/types1.jpg" alt="room"></div>
+                        <div class="fourth-screen-types-item-left-text types-text">
+                            <h3 class="fourth-screen-types-item-left-text-title types-title">Redecorating</h3>
+                            <ul class="fourth-screen-types--item-left-text-list types-list">
+                                <li class="fourth-screen-types-item-left-text-list-li types-li">Dismantling of old coatings</li>
+                                <li class="fourth-screen-types-item-left-text-list-li types-li">Wallpapering</li>
+                                <li class="fourth-screen-types-item-left-text-list-li types-li">Painting walls and ceilings</li>
+                                <li class="fourth-screen-types-item-left-text-list-li types-li">Laying flooring</li>
+                                <li class="fourth-screen-types-item-left-text-list-li types-li">Replacing plumbing</li>
+                                <li class="fourth-screen-types-item-left-text-list-li types-li">Replacing sockets and switches</li>
+                                <li class="fourth-screen-types-item-left-text-list-li types-li">Replacing doors</li>
+                            </ul>
+                            <button class="fourth-screen-types-item-left-button button types-button">from 900 rub / m2</button>
+                        </div>
+                    </div>
+                    <div class="fourth-screen-types-item-center types-item">
+                        <div class="fourth-screen-types-item-center-img"><img src="img/types2.jpg" alt="room"></div>
+                        <div class="fourth-screen-types-item-center-text types-text">
+                            <h3 class="fourth-screen-types-item-center-title types-title">Overhaul</h3>
+                            <ul class="fourth-screen-types-item-center-list types-list">
+                                <li class="fourth-screen-types-item-center-li">Dismantling of old coatings</li>
+                                <li class="fourth-screen-types-item-center-li">Wallpapering</li>
+                                <li class="fourth-screen-types-item-center-li">Painting walls and ceilings</li>
+                                <li class="fourth-screen-types-item-center-li">Laying flooring</li>
+                                <li class="fourth-screen-types-item-center-li">Replacing plumbing</li>
+                                <li class="fourth-screen-types-item-center-li">Replacing sockets and switches</li>
+                                <li class="fourth-screen-types-item-center-li">Replacing doors</li>
+                            </ul>
+                            <button class="fourth-screen-types-item-center-button button types-button">from 1800 rub / m2</button>
+                        </div>
+                    </div>
+                    <div class="fourth-screen-types-item-right types-item">
+                        <div class="fourth-screen-types-item-right-img"><img src="img/types3.jpg" alt="room"></div>
+                        <div class="fourth-screen-types-item-right-text types-text">
+                            <h3 class="fourth-screen-types-item-right-title types-title">Overhaul</h3>
+                            <ul class="fourth-screen-types-item-right-list types-list">
+                                <li class="fourth-screen-types-item-right-li">Dismantling of old coatings</li>
+                                <li class="fourth-screen-types-item-right-li">Wallpapering</li>
+                                <li class="fourth-screen-types-item-right-li">Painting walls and ceilings</li>
+                                <li class="fourth-screen-types-item-right-li">Laying flooring</li>
+                                <li class="fourth-screen-types-item-right-li">Replacing plumbing</li>
+                                <li class="fourth-screen-types-item-right-li">Replacing sockets and switches</li>
+                                <li class="fourth-screen-types-item-right-li">Replacing doors</li>
+                            </ul>
+                            <button class="fourth-screen-types-item-right-button button types-button">from 4000 rub / m2</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="five-screen">
+            <div class="wrapper">
+                <div class="five-screen-wrapper">
+                    <div class="five-screen-left">
+                        <ul class="five-screen-left-list">
+                            <li class="five-screen-left-list-li">
+                                <span>01</span>
+                                <p class="five-screen-left-list-li-text"> Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</p>
+                            </li>
+                            <li class="five-screen-left-list-li">
+                                <span>02</span>
+                                <p class="five-screen-left-list-li-text">Free metering</p>
+                            </li>
+                            <li class="five-screen-left-list-li">
+                                <span>03</span>
+                                <p class="five-screen-left-list-li-text">Free consultation</p>
+                            </li>
+                            <li class="five-screen-left-list-li">
+                                <span>04</span>
+                                <p class="five-screen-left-list-li-text">Get a cost estimate and <br> the timing of your future repairs</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="five-screen-right">
+                        <form class="five-screen-right-form">
+                            <p class="five-screen-right-form-title">
+                                Leave a request for free <br>departure of the measurer
+                            </p>
+                            <label class="form-title five-screen-right-form-name">Name</label>
+                            <p class="five-screen-right-form-input-title"><input class="input form-input" placeholder="What is your name:"></p>
+                            <label class="form-title five-screen-right-form-phone">Phone </label>
+                            <p class="five-screen-right-form-input-title"><input class="input form-input" placeholder="Your phone number:"></p>
+                            <label class="form-title five-screen-right-form-email">Email </label>
+                            <p class="five-screen-right-form-input-title"><input class="input form-input" placeholder="Your email:"></p>
+                            <div class="five-screen-right-form-checkbox checkbox">
+                                <input type="checkbox" id="checkbox_1">
+                                <label for="checkbox_1">I agree to the processing of personal data</label>
+                            </div>
+
+                            <div class="five-screen-right-form-button-wrapper"> <button class="form-button button">Call the measurer</button></div>
+                        </form>
+                        <div class="five-screen-pig"> Help save 10 - 20% of the cost of materials
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery-screen">
+            <div class="wrapper ">
+                <div class="gallery-screen-content">
+                    <div class="gallery-screen-content-text">
+                        <h3 class="gallery-screen-content-text-h2 h2">We realize your <br> wildest fantasies</h3>
+                        <ul class="gallery-screen-content-text-list">
+                            <li>American classic</li>
+                            <li>Empire</li>
+                            <li>Classical</li>
+                            <li>Loft</li>
+                            <li>Minimalism</li>
+                            <li>Provence</li>
+                            <li>Romanticism</li>
+                            <li>Scandinavian style</li>
+                            <li>Mediterranean style</li>
+                            <li>High tech</li>
+                            <li>Eclecticism</li>
+                        </ul>
+                    </div>
+                    <div class="gallery-screen-content-img">
+                        <div class="gallery-screen-content-img-left">
+                            <div class="gallery-screen-content-img-left-1">
+                                <img src="img/room-1.jpg" alt="Room">
+                            </div>
+                            <div class="gallery-screen-content-img-left-2">
+                                <img src="img/room-2.jpg" alt="Room">
+                            </div>
+                        </div>
+                        <div class="gallery-screen-content-img-right">
+                            <div class="gallery-screen-content-img-right-1">
+                                <img src="img/room-3.jpg" alt="Room">
+                            </div>
+                            <div class="gallery-screen-content-img-right-2">
+                                <img src="img/room-4.jpg" alt="Room">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews-screen">
+            <div class="wrapper">
+                <div class="reviews-screen-head-wrapper">
+                    <h3 class="reviews-screen-h3 h3">our clients</h3>
+                    <img class="reviews-screen-icon" src="img/hands.png" alt="Reviews">
+                    <p class="reviews-screen-subtitle">
+                        80% of our customers recommend us to their friends and family.
+                    </p>
+                </div>
+                <div class="reviews-screen-wrapper">
+                    <div class="reviews-screen-items-1 reviews-items">
+                        <div class="reviews-screen-items-1-clients-1 reviews-clients">
+                            <img class="reviews-screen-items-1-clients-1-Photo reviews-clients-photo" src="img/client-1.jpg" alt="Photo">
+                            <h3 class="reviews-screen-items-1-clients-1-name h3">
+                                Fedosova Maria <br> Konstantinovna
+                            </h3>
+                        </div>
+                        <p class="reviews-screen-clients-text">
+                            I want to thank the guys for their work. WE PUT YOUR SHOWER PART IN REPAIR. I am VERY grateful that I referred to the repair as to my own. GREAT THANKS I EXPRESS THE PROJECT TO GEORGIA FOR ITS PROFESSIONALISM AND APPROACH.
+                        </p>
+                        <p class="reviews-screen-clients-text">
+                            THE REPAIR PROCESS WAS TURNED OUT IN TERMS, FASTER THAN ANTICIPATED. TEAM MOBILE AND PROFESSIONAL. WORKS PERFORMED QUALITATIVELY WITHOUT COMMENTS. QUALITY SATISFIED. PRICES DEMOCRATIC. I RECOMMEND THESE MASTERS.
+                        </p>
+                        <div class="reviews-screen-info">
+                            <span class="size">40 m2</span>
+                            <span class="days">48 DAYS</span>
+                        </div>
+                    </div>
+                    <div class="reviews-screen-items-2 reviews-items">
+                        <div class="reviews-screen-items-2-client-2 reviews-clients">
+                            <img class="reviews-screen-items-2-client-2-Photo reviews-clients-photo" src="img/client-2.jpg" alt="Photo">
+                            <h3 class="reviews-screen-items-2-client-2-name h3">
+                                Afanasyev Sergey <br> Alexandrovich
+                            </h3>
+                        </div>
+                        <p class="reviews-screen-clients-text">
+                            I want to thank the guys for their work. WE PUT YOUR SHOWER PART IN REPAIR. I am VERY grateful that I referred to the repair as to my own. GREAT THANKS I EXPRESS THE PROJECT TO GEORGIA FOR ITS PROFESSIONALISM AND APPROACH.
+                        </p>
+                        <p class="reviews-screen-clients-text">
+                            THE REPAIR PROCESS WAS TURNED OUT IN TERMS, FASTER THAN ANTICIPATED. TEAM MOBILE AND PROFESSIONAL. WORKS PERFORMED QUALITATIVELY WITHOUT COMMENTS. QUALITY SATISFIED. PRICES DEMOCRATIC. I RECOMMEND THESE MASTERS.
+                        </p>
+                        <div class="reviews-screen-info">
+                            <span class="size">90 м2</span>
+                            <span class="days">128 DAYS</span>
+                        </div>
+                    </div>
+                    <div class="reviews-screen-items-3 reviews-items">
+                        <div class="reviews-screen-items-3-client-3 reviews-clients">
+                            <img class="reviews-screen-items-3-client-3-Photo reviews-clients-photo" src="img/cliet-3.jpg" alt="Photo-Client">
+                            <h3 class="reviews-screen-items-3-client-3-name h3">
+                                Kiriev Egor <br> Leonidovich
+                            </h3>
+                        </div>
+                        <p class="reviews-screen-clients-text">
+                            I want to thank the guys for their work. WE PUT YOUR SHOWER PART IN REPAIR. I am VERY grateful that I referred to the repair as to my own. GREAT THANKS I EXPRESS THE PROJECT TO GEORGIA FOR ITS PROFESSIONALISM AND APPROACH.
+                        </p>
+                        <p class="reviews-screen-clients-text">
+                            THE REPAIR PROCESS WAS TURNED OUT IN TERMS, FASTER THAN ANTICIPATED. TEAM MOBILE AND PROFESSIONAL. WORKS PERFORMED QUALITATIVELY WITHOUT COMMENTS. QUALITY SATISFIED. PRICES DEMOCRATIC. I RECOMMEND THESE MASTERS.
+                        </p>
+                        <div class="reviews-screen-info">
+                            <span class="size">56 м2</span>
+                            <span class="days">86 DAYS</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="map-screen">
+            <div class="wrapper">
+
+                <form class="map-screen-form">
+                    <p class="map-screen-form-title">
+                        have any questions?
+                    </p>
+                    <div class="map-screen-form-up">
+                        <label class="form-title map-screen-form-up-name">Name
+                    <input class="form-input input" type="text" placeholder="What is your name:"></label>
+                        <label class="form-title map-screen-form-up-phone">Phone
+                     <input class="form-input input" type="text" placeholder="Your phone number:"></label>
+                    </div>
 
 
+                    <div class="map-screen-form-down">
+                        <label class="form-title map-screen-form-up-name">Question
+                <input class="form-input input" type="text" placeholder="I want to know:"></label>
 
+                    </div>
+                    <div class="five-screen-right-form-checkbox checkbox">
+                        <input type="checkbox" id="checkbox_3">
+                        <label for="checkbox_3">I agree to the processing of personal data</label>
+                    </div>
+                    <button class="map-screen-form-button form-button button">submit</button>
+                </form>
+                <div class="map-screen-title-wrapper">
+                    <p class="map-screen-title h2">
+                        Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29
+                    </p>
+                </div>
+                <div class="map-screen-icon">
+                    <img src="img/mail.svg" alt="Email">
+                    <img src="img/inst.svg" alt="Instagram">
+                </div>
+                <div class="map-screen-yandex">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A69726451e9240960d3bbba5d50de7ff6c98b0237c838df6a100c2cd5adcffd55&amp;source=constructor" width="883" height="435" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="wrapper header-content">
+            <div class="logo">IC "Repair Design Project</div>
+            <nav>
+                <ul class="header-menu">
+                    <li class="header-menu__items"> <a class="link" href="#home">HOME</li></a>
+                        <li class="header-menu__items"> <a class="link" href=#projects>PROJECTS</li></a>
+                            <li class="header-menu__items"> <a class="link" href=#measurment>MEASUREMENT</li></a>
+                                <li class="header-menu__items"> <a class="link" href=#team>TEAM</li></a>
+                                    <li class="header-menu__items"> <a class="link" href=#reviews>REVIEWS</li></a>
+                                        <li class="header-menu__items"> <a class="link" href=#contacts>CONTACTS</li></a>
+                </ul>
+            </nav>
+            <div class="phone" href="tel:+78005008991">+7 (928) 768-32-39</div>
+        </div>
+        </div>
+    </footer>
 </body>
 
 </html>
