@@ -712,7 +712,7 @@
         background-repeat: no-repeat;
         background-position: center;
         margin-left: -90px;
-        top: 560px;
+        top: 550px;
     }
     
     .gallery-screen {
@@ -1042,6 +1042,10 @@
     
     .checkbox input[type="checkbox"]:checked+label::after {
         content: "";
+    }
+    
+    .input.form-input::placeholder {
+        color: white;
     }
     
     .checkbox-text {
