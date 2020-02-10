@@ -712,7 +712,7 @@
         background-repeat: no-repeat;
         background-position: center;
         margin-left: -90px;
-        top: 560px;
+        top: 550px;
     }
     
     .gallery-screen {
@@ -961,8 +961,7 @@
         padding: 20px 54px;
     }
     
-    .map-screen-form-checkbox {
-        color: white;
+    .map-screen-checkbox {
         margin-left: 130px;
     }
     
@@ -1043,4 +1042,13 @@
     
     .checkbox input[type="checkbox"]:checked+label::after {
         content: "";
+    }
+    
+    .checkbox-text {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 163.68%;
+        color: #FFFFFF;
     }
