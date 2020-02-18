@@ -19,6 +19,7 @@
         font-style: italic;
         border: 0px;
         outline: 0px;
+        cursor: pointer;
     }
     
     .header,
@@ -109,6 +110,17 @@
         color: white;
     }
     
+    .first-screen-button:hover {
+        border-color: transparent;
+        outline: 0px;
+        box-sizing: border-box;
+        outline: none;
+        border-radius: 2px;
+        padding: 19px 23px;
+        background: #E3B873;
+        color: white;
+    }
+    
     .first-screen {
         background-image: url('../img/background.jpg');
         background-size: cover;
@@ -126,17 +138,6 @@
         top: 0;
         bottom: 0;
         background: rgba(0, 0, 0, 0.7);
-    }
-    
-    .first-screen-button:hover {
-        border: 0px;
-        outline: 0px;
-        box-sizing: border-box;
-        outline: none;
-        border-radius: 2px;
-        padding: 19px 23px;
-        background: #E3B873;
-        color: white;
     }
     
     .first-screen-h1 {
@@ -269,6 +270,13 @@
         padding-top: 85px;
     }
     
+    .second-screen-slider-left-arrow span {
+        width: 10px;
+        height: 10px;
+        background: white;
+        border-radius: 50%;
+    }
+    
     .second-screen-slider-right-nav {
         display: flex;
         padding: 0px;
@@ -324,11 +332,11 @@
         margin: 0px auto;
     }
     
-    .second-screen-online-control-camera span {
+    .span-icon {
         position: relative;
     }
     
-    .second-screen-online-control-camera span:before {
+    .span-icon:before {
         display: block;
         width: 32px;
         content: '';
@@ -338,7 +346,7 @@
         right: 40px;
     }
     
-    .second-screen-online-control-camera span:after {
+    .span-icon:after {
         display: block;
         width: 32px;
         content: '';
@@ -490,34 +498,8 @@
         text-align: center;
         position: relative;
         z-index: 0;
-    }
-    
-    .fourth-screen-icon {
         max-width: 114px;
         margin: 0px auto;
-    }
-    
-    .fourth-screen-icon span {
-        position: relative;
-    }
-    
-    .fourth-screen-icon:before {
-        display: block;
-        width: 32px;
-        content: '';
-        position: absolute;
-        border-bottom: 1px solid #E3B873;
-        top: 25px;
-    }
-    
-    .fourth-screen-icon:after {
-        display: block;
-        width: 32px;
-        content: '';
-        position: absolute;
-        border-bottom: 1px solid #E3B873;
-        top: 25px;
-        left: 80px;
     }
     
     .fourth-screen-types {
@@ -556,6 +538,8 @@
         font-size: 13px;
         line-height: 27px;
         color: #959595;
+        padding-bottom: 49px;
+        position: relative;
     }
     
     .types-button {
@@ -564,14 +548,22 @@
         font-weight: normal;
         font-size: 18px;
         line-height: 25px;
-        padding: 17px 20px;
-        margin-bottom: -60px;
+        padding: 17px 17px;
+        background: #E3B873;
+        box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 228px;
+        margin-top: -100px;
+        margin-left: 30px;
+        z-index: 1;
+        position: relative;
     }
     
     .five-screen {
         background-image: url(../img/home.jpg);
         background-repeat: no-repeat;
-        padding: 50px 0 70px;
+        padding: 230px 0 70px;
         height: 100%;
     }
     
@@ -958,7 +950,7 @@
         display: block;
         margin: 0px auto;
         margin-top: 50px;
-        padding: 20px 54px;
+        padding: 20px 85px;
     }
     
     .map-screen-checkbox {
